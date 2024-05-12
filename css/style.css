@@ -1,0 +1,59 @@
+.btn {
+    border: none;
+    background-color: aqua;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.btn:active {
+    background-color: rgb(20, 83, 83);
+
+}
+
+a:link {
+    color: brown;
+}
+
+a:visited {
+    color: blue;
+}
+
+input:disabled {
+    background-color: yellow
+}
+
+.check:checked+span {
+    color: red;
+}
+
+.block {
+    border: 2px solid red;
+    display: inline-block;
+}
+
+
+.block_img {
+    width: 300px;
+    margin: 10px;
+}
+
+.block_img:first-child {
+    margin-left: 0px;
+}
+
+.block_img:last-child {
+    margin-right: 0px;
+}
+
+.block_img:nth-child(2) {
+    border: 2px dashed green;
+}
+
+.paragraph::before {
+    content: 'до';
+}
+
+.paragraph::after {
+    content: '\0247';
+}
